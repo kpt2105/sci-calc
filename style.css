@@ -1,0 +1,356 @@
+@font-face {
+    font-family: main-font;
+    src:url(/fonts/seguisb.ttf)
+
+}
+@font-face {
+    font-family: text-font;
+    src: url(/fonts/segoeui.ttf);
+}
+html, body {
+    margin: 0; 
+    padding: 0;
+    resize: none;
+  }
+.img-mobile {
+    display: none;
+}
+
+
+.container {
+    position: relative;
+    color: white;
+  }  
+
+.img-desktop {
+    width: 180vh;
+    margin:0;
+    padding:0;
+        
+} 
+#main-br{
+    display: initial;
+}
+
+
+#main-text {
+    margin-top: -64vh;
+    margin-left: 6vh ;
+    color: white;
+    font-size: 6vw ;
+    
+    font-family: main-font;
+} 
+#side-div{
+    font-family: main-font;
+    color: #E62727;
+    font-size: 2vw;
+    position: absolute;
+    top: 27vh;
+    margin-left: 60vw;
+    
+
+}
+#side-br {
+    display: none;
+}
+#main-pattern{
+    position: relative;
+
+} 
+#navbar {
+    margin-left: 4vw;
+    margin-top: 7vh;
+}
+
+#conf-button {
+    background-color:#E62727 ;
+    color: white;
+    border: none;
+    outline: none;
+    width: 85%;
+    font-size: 4.5vh;
+    font-family: main-font;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-top: 12vh;
+    margin-left: -.3vw;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+
+
+}
+#main-form {
+    display: block;
+    margin:auto;
+}
+
+#browser {
+    color:#E62727;
+    display: block;
+    font-family: main-font;
+    font-size: 1.5vw;
+    margin-left: -2vw;
+    border-color :#E62727 ;
+    outline: none;
+    border-width: 5px;
+    border-radius: 2px;
+    background-color: -internal-light-dark(white,#E62727);
+    margin-top: 4vw;
+    padding: .2vh; 
+}
+.main-options {
+    color:#E62727 ;
+}
+#side-title {
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+@media only screen and (max-width: 500px) {
+    .img-desktop {
+        display: none;
+    }
+
+    body {
+        background-image: url("/images/back-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 500vw; 
+    }
+    #main-text {
+        font-size: 13vw;
+        margin-top: 20vw;
+
+    }
+    #side-div{
+        position: static;
+        display: block;
+        margin: auto;
+        font-family: main-font;
+        color: #E62727;
+        text-align:center     
+    }
+    #main-pattern{
+        position: relative;
+    
+    } 
+    
+    #conf-button {
+        margin-top: 20vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#E62727 ;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 7vw;
+        font-family: main-font;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    #browser {
+        color:#E62727;
+        font-family: main-font;
+        text-align: center;
+        font-size: 6vw;
+        margin:auto;
+        padding-left: vh;
+        border-color :#E62727 ;
+        outline: none;
+        border-width: 5px;
+        border-radius: 2px;
+        background-color: -internal-light-dark(white,#E62727);
+        margin-top: 4vw;
+        padding: .2vh; 
+    }
+    .main-options {
+        color:#E62727 ;
+    }
+    #side-br{
+        display: initial;
+    }
+    #side-title {
+        margin-right: 10vw;
+
+        text-align: right;
+        font-size: 11vw;
+        margin-top: 37vw;
+        white-space: nowrap;
+        overflow: hidden;
+        }
+
+
+    
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 501px) {
+    .img-desktop {
+        display: none;
+    }
+
+    body {
+        background-image: url("/images/back-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 150vw; 
+    }
+    #main-text {
+        font-size: 5vw;
+        margin-top: 8.3vw;
+    }
+    #side-div{
+        position: static;
+        display: block;
+        margin: auto;
+        font-family: main-font;
+        color: #E62727;
+        text-align:center     
+    }
+    #main-pattern{
+        position: relative;
+    
+    } 
+    
+    #conf-button {
+        margin-top: 10vw;
+        width: 35%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#E62727 ;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 3vw;
+        font-family: main-font;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    #browser {
+        color:#E62727;
+        font-family: main-font;
+        text-align: center;
+        font-size: 3vw;
+        margin:auto;
+        padding-left: vh;
+        border-color :#E62727 ;
+        outline: none;
+        border-width: 5px;
+        border-radius: 2px;
+        background-color: -internal-light-dark(white,#E62727);
+        margin-top: 4vw;
+        padding: .2vh; 
+    }
+    .main-options {
+        color:#E62727 ;
+    }
+    #main-br{
+        display: none;
+    }
+    #side-br{
+        display: none;
+    }
+    #side-title {
+        font-size: 6.5vw;
+        margin-top: 20vw;
+        white-space: nowrap;
+        overflow: hidden;
+        }
+
+
+    
+}
+@media only screen and (max-height: 559px) {
+    .img-desktop {
+        display: none;
+    }
+
+    body {
+        background-image: url("/images/back-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100vw; 
+    }
+    #main-text {
+        font-size: 4vw;
+        margin-top: 5.5vw;
+    }
+    #side-div{
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: 1vw;
+        font-family: main-font;
+        color: #E62727;
+        text-align:center;     
+    }
+    #main-pattern{
+        position: relative;
+    
+    } 
+    
+    #conf-button {
+        margin-top: 7vw;
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#E62727 ;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 2.7vw;
+        font-family: main-font;
+        white-space: nowrap;
+        overflow: hidden;
+      
+    
+    
+    }
+    
+    #browser {
+        color:#E62727;
+        font-family: main-font;
+        text-align: center;
+        font-size: 2vw;
+        margin:auto;
+        border-color :#E62727 ;
+        outline: none;
+        border-width: 5px;
+        border-radius: 2px;
+        background-color: -internal-light-dark(white,#E62727);
+        margin-top: 4vw;
+        padding: .2vh; 
+    }
+    .main-options {
+        color:#E62727 ;
+    }
+    #main-br{
+        display: none;
+    }
+    #side-br{
+        display: none;
+    }
+    #side-title {
+        margin-right: 20vw;
+        display: block;
+        margin-right: auto;
+        margin-left: 4vw;
+        font-size: 4vw;
+        margin-top: 10vw;
+        white-space: nowrap;
+        overflow: hidden;
+        }
+
+
+    
+}
+
