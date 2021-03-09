@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scientific calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style-main-calc.css">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        <script src="/script.js"></script>
+    </head>
+    <body>
+      <div id="wrapper">
+        <div id="main-pattern">
+            <div id="title-div">
+                <h1 id="main-text">Sientfic Calculator</h1>
+                <div id="button-div">
+                  <input type="image"  id="back-button" src="/main-calc/images/left-arrow.png" onclick="return back()">
+               </div>
+               </div>
+          </div>
+      <div class="input-div">
+        <div id="title-sub-div">
+          <h1 id="sub-text" >Speeds of light(C) to km/h</h1>
+        </div>
+        <div id="title-sub-1-div">
+          <div id="sub-text-1">
+          <h1 style="padding-right: -0vw; margin-left: 4.5vw;">C</h1>
+        </div>
+        <div id="sub-text-2">
+          <h1 >km/h</h1>
+        </div>
+      </div>
+      <div id="form-div">
+        <form>
+          <div id='eVolts'>
+            <input id='eVolts-item' class="form-1"  type="text" value="" >
+        </div>
+        <div id='Joules'>
+        <input id='Joules-item' class="form-1"  type="text" value="">
+      </div>
+        <input id="reset-button" type="reset" value="Reset">
+        <input id='submit-button' type="submit" value="Convert" onclick="return eVolts_Joules()">
+        </form>
+      </div>
+      </div>
+        <div id="footer">
+          <div id="footer-div">
+            <div id="footer-div-img">
+              <img id="footer-sub-img" src="/images/footer-sub-desktop.png" />
+              <img id="footer-mobile-img" src="/images/footer-mobile.png">
+            <div id="logo-div">
+              <img id="logo" src="/images/logo.png" />
+              <img id="logo-white" src="/images/logo-white.png" />
+            </div>
+            <div id="footer-text-div">
+              <h id="footer-text">© 2021 Sci-calc All rights reserved</h>
+            </div>
+            <div id="contact-button-div">
+              <button id="contact-button">Contact us</button>
+            </div>
+          </div>
+    </body>
+    <script src="script-main-calc.js"></script>
+</html>
