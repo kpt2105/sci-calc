@@ -795,7 +795,7 @@ body {
     top: unset;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 629px) {
+@media screen and (min-width: 501px) and (max-width: 714px) {
   .img-desktop {
     display: none;
   }
