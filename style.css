@@ -86,7 +86,11 @@ body {
   display: block;
   margin: auto;
 }
-
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 #browser {
   color: #e62727;
   font-family: main-font;
