@@ -20,7 +20,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 #main-text {
   display: flex;
   justify-content: center;
