@@ -10,5 +10,5 @@ function calc_0() {
   return false;
 }
 function contact() {
-  window.location.href = "/contact_form/indexcontact.html";
+  window.location.href = "/";
 }
