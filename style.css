@@ -90,6 +90,7 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
 #browser {
   color: #e62727;
