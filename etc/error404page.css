@@ -1,0 +1,102 @@
+@font-face {
+  font-family: main-font;
+  src: url(/fonts/seguisb.ttf);
+}
+@font-face {
+  font-family: text-font;
+  src: url(/fonts/segoeui.ttf);
+}
+body {
+  background-color: #e62727;
+}
+#cube {
+  border-radius: 25px;
+  background: white;
+  padding: 0vw;
+  width: 40vw;
+  height: 30vw;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 95vh;
+}
+#logo {
+  position: absolute;
+  width: 6.5vw;
+  margin-top: -18vw;
+}
+#error-code {
+  position: absolute;
+  color: #e62727;
+  font-family: main-font;
+  font-size: 6vw;
+  margin-top: -5vw;
+}
+#error-message {
+  position: absolute;
+  margin-top: 7vw;
+  color: #e62727;
+  font-family: text-font;
+  font-size: 3vw;
+}
+#home-button {
+  position: absolute;
+  margin-top: 20vw;
+  border-radius: 5px;
+  background-color: #e62727;
+  color: white;
+  border: none;
+  outline: none;
+  width: 12vw;
+  font-size: 2.2vw;
+  font-family: main-font;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#home-button:hover {
+  background-color: #bb2121;
+  transition: 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  #cube {
+    padding: 20vw;
+  }
+  #logo {
+    width: 17vw;
+    margin-top: -40vw;
+  }
+  #error-code {
+    font-size: 10vw;
+    margin-top: -7vw;
+  }
+  #error-message {
+    margin-top: 15vw;
+    font-size: 7vw;
+  }
+  #home-button {
+    margin-top: 45vw;
+    width: 30vw;
+    font-size: 5vw;
+  }
+}
