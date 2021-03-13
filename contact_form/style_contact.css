@@ -213,7 +213,7 @@ input {
 }
 #footer-sub-img {
   position: absolute;
-  width: 98.9vw;
+  width: 100%;
   height: 10vw;
   object-fit: none;
   top: unset;
