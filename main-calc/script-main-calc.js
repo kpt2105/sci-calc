@@ -3,7 +3,7 @@ function back() {
   window.location.href = "/";
 }
 function contact() {
-  window.location.href = "/";
+  window.location.href = "/contactform/indexcontact.html";
 }
 
 function eVolts_Joules() {
