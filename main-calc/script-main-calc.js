@@ -9,8 +9,8 @@ function contact() {
 function eVolts_Joules() {
   var x = document.getElementById("eVolts-item");
   var y = document.getElementById("Joules-item");
-  var volt = parseInt(x.value);
-  var joule = parseInt(y.value);
+  var volt = parseFloat(x.value);
+  var joule = parseFloat(y.value);
   console.log(x.value);
   if (volt > 0) {
     var f = Math.pow(10, -19);
