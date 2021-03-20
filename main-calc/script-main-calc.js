@@ -52,7 +52,7 @@ function seconds_to_planckTime() {
 }
 function meters_to_planckLength() {
   var x = document.getElementById("meters");
-  var y = document.getElementById("plancktime-length");
+  var y = document.getElementById("planck-length");
   var meters = parseFloat(x.value);
   var plancklength = parseFloat(y.value);
   if (meters > 0) {
