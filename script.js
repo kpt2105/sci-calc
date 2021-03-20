@@ -6,6 +6,8 @@ function calc_0() {
     document.location = "/main-calc/index_main_calc-0";
   } else if (x == "Speed of light to km/h") {
     document.location = "/main-calc/index_main_calc-1";
+  } else if (x == "Seconds to Planck Times") {
+    document.location = "/main-calc/calc2.html";
   }
   return false;
 }
