@@ -10,6 +10,8 @@ function calc_0() {
     document.location = "/main-calc/calc2.html";
   } else if (x == "Meters to Planck Lengths") {
     document.location = "/main-calc/calc3.html";
+  } else if (x == "Lightyears to Km") {
+    document.location = "/main-calc/calc4.html";
   }
   return false;
 }
