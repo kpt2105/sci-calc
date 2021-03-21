@@ -3,7 +3,7 @@ function back() {
   window.location.href = "/";
 }
 function contact() {
-  window.location.href = "/contact.html";
+  window.location.href = "/contact";
 }
 // Constants
 const h = 6.62607004 * Math.pow(10, -34);
