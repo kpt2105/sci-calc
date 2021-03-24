@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   resize: none;
-  background-image: url("/main-calc/images/Web1920–3.png");
+  background-image: url("/calcs/images/Web1920–3.png");
   background-repeat: no-repeat;
   background-size: 100vw;
   min-height: 50vh;
@@ -239,7 +239,7 @@ input {
     margin: 0;
     padding: 0;
     resize: none;
-    background-image: url("/main-calc/images/back-2.png");
+    background-image: url("/calcs/images/back-2.png");
     background-repeat: no-repeat;
     background-size: 500vw;
     min-height: 170vh;
@@ -467,7 +467,7 @@ input {
     margin: 0;
     padding: 0;
     resize: none;
-    background-image: url("/main-calc/images/back-2.png");
+    background-image: url("/calcs/images/back-2.png");
     background-repeat: no-repeat;
     background-size: 150vw;
     min-height: 100vh;
@@ -688,7 +688,7 @@ input {
     margin: 0;
     padding: 0;
     resize: none;
-    background-image: url("/main-calc/images/back-2.png");
+    background-image: url("/calcs/images/back-2.png");
     background-repeat: no-repeat;
     background-size: 500vw;
     min-height: 270vh;
